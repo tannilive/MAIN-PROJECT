@@ -63,15 +63,14 @@ The project is created with:
 
 ![](https://img.icons8.com/color/48/null/python--v1.png)![](https://img.icons8.com/color/48/null/numpy.png)![](Assets/streamlit-icon-48x48.png)![](Assets/fastapi.ico)![](Assets/scikit-learn.ico) ![](https://img.icons8.com/color/48/null/pandas.png)
 
-## :whale: Setup
 
 ### Run it locally
 #### Clone the repo
 ```
 $ git clone https://github.com/tannilive/MAIN-PROJECT)
 ```
-Run the backend by using python -m uvicorn main:app --reload
-run the frontend by using python -m streamlit run Hello.py
+Run the backend by using python -m uvicorn main:app --reload                                                                                                                                                                            
+Run the frontend by using python -m streamlit run Hello.py
 
 Then open http://localhost:8501 
 
