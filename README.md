@@ -1,5 +1,5 @@
 <h1 align="center">Food/Diet Recommendation System</h1>
-<div align= "center"><img src="[Assets/logo_img1.jpg](https://images.pexels.com/photos/236795/pexels-photo-236795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" />
+<div align= "center"><img src="https://images.pexels.com/photos/236795/pexels-photo-236795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
@@ -49,14 +49,6 @@ The application is built using the FastAPI framework, which allows for the creat
 
 The application's front-end is made with Streamlit. Streamlit is an open source app framework in Python language. It helps to create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc. For our case the front-end is composed of three web pages. The main page is Hello.py which is a welcoming page used to introduce you to my project. The side bar on the left allows the user to navigate too the automatic diet recommendation page and the custom food recommendation page. In the diet recommendation page the user can fill information about his age,weight,height.. and gets a diet recommendation based on his information. Besides, the custom food recommendation allows the user to specify more his food preferency using nutritional values.
 
-### Deployement using Docker
-#### Why Docker?
-By using Docker, you can ensure that the environment in which the application is exactly the same as the environment in which it was built, which can help prevent unexpected issues and improve model performance. Additionally, Docker allows for easy scaling and management of the deployment, making it a great choice for larger machine learning projects.
-#### Docker-Compose
-My project is composed of different services (frontend,API). Therefore, our application should run on multiple containers. With the help of Docker-compose we can share our application using the yaml file that define the services that runs together.
-
-
-
 ## :rocket: Technologies
 The project is created with:
 * Python: 3.10.8
@@ -76,13 +68,10 @@ The project is created with:
 ### Run it locally
 #### Clone the repo
 ```
-$ git clone https://github.com/tannilive/Diet-Recommendation-main-project
+$ git clone https://github.com/tannilive/MAIN-PROJECT)
 ```
-### docker-compose
-In the project root run:
-```
-$ docker-compose up -d --build
-```
+Run the backend by using python -m uvicorn main:app --reload
+run the frontend by using python -m streamlit run Hello.py
+
 Then open http://localhost:8501 
 
-PS: You should have docker and docker-compose already installed
