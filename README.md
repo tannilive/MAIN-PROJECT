@@ -1,5 +1,5 @@
 <h1 align="center">Food/Diet Recommendation System</h1>
-<div align= "center"><img src="Assets/logo_img1.jpg" />
+<div align= "center"><img src="[Assets/logo_img1.jpg](https://images.pexels.com/photos/236795/pexels-photo-236795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" />
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
